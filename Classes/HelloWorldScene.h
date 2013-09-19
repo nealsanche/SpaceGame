@@ -3,8 +3,16 @@
 
 #include "cocos2d.h"
 #include "CCParallaxScrollNode.h"
+#include "SimpleAudioEngine.h"
+
+using namespace CocosDenshion;
 
 USING_NS_CC;
+
+typedef enum {
+    KENDREASONWIN,
+    KENDREASONLOSE
+} EndReason;
 
 class HelloWorld : public Layer
 {
@@ -21,9 +29,19 @@ public:
     // implement the "static node()" method manually
     CREATE_FUNC(HelloWorld);
     
+    float randomValueBetween(float low, float high);
+    void setInvisible(CCNode * node);
+    float getTimeTick();
+    
+    virtual void didAccelerate(CCAcceleration* pAccelerationValue);
+    
+    virtual void ccTouchesBegan(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
+    
 private:
 	SpriteBatchNode* _batchNode;
 	Sprite* _ship;
+    
+    float _shipPointsPerSecY;
     
     CCParallaxScrollNode *_backgroundNode;
     Sprite *_spacedust1;
@@ -39,9 +57,24 @@ private:
     Sprite *_galaxy2;
     Sprite *_spacialanomaly3;
     Sprite *_spacialanomaly4;
+    
+    CCArray* _asteroids;
+    int _nextAsteroid;
+    float _nextAsteroidSpawn;
+    
+    CCArray* _shipLasers;
+    int _nextShipLaser;
+    
+    int _lives;
+    
+    double _gameOverTime;
+    bool _gameOver;
 
     // scheduled Update
     void update(float dt);
+    
+    void endScene(EndReason endReason);
+    void restartTapped();
 };
 
 #endif // __HELLOWORLD_SCENE_H__

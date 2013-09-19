@@ -32,6 +32,12 @@
 		08A6F00F17EA419D004E0C96 /* Stars3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A6EFF817EA419D004E0C96 /* Stars3.plist */; };
 		08A6F01417EA45A9004E0C96 /* CCParallaxScrollNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08A6F01017EA45A9004E0C96 /* CCParallaxScrollNode.cpp */; };
 		08A6F01517EA45A9004E0C96 /* CCParallaxScrollOffset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08A6F01217EA45A9004E0C96 /* CCParallaxScrollOffset.cpp */; };
+		08A6F03117EB5CBE004E0C96 /* explosion_large.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F02B17EB5CBE004E0C96 /* explosion_large.caf.wav */; };
+		08A6F03217EB5CBE004E0C96 /* explosion_small.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F02C17EB5CBE004E0C96 /* explosion_small.caf.wav */; };
+		08A6F03317EB5CBE004E0C96 /* laser_enemy.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F02D17EB5CBE004E0C96 /* laser_enemy.caf.wav */; };
+		08A6F03417EB5CBE004E0C96 /* laser_ship.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F02E17EB5CBE004E0C96 /* laser_ship.caf.wav */; };
+		08A6F03517EB5CBE004E0C96 /* powerup.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F02F17EB5CBE004E0C96 /* powerup.caf.wav */; };
+		08A6F03617EB5CBE004E0C96 /* SpaceGame.caf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08A6F03017EB5CBE004E0C96 /* SpaceGame.caf.wav */; };
 		1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624316D4A1E8000847F2 /* AppController.mm */; };
 		1AC3624B16D4A1E8000847F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624516D4A1E8000847F2 /* main.m */; };
 		1ACB3244164770DE00914215 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB3243164770DE00914215 /* libcurl.a */; };
@@ -228,6 +234,12 @@
 		08A6F01117EA45A9004E0C96 /* CCParallaxScrollNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxScrollNode.h; path = ../Classes/CCParallaxScrollNode.h; sourceTree = "<group>"; };
 		08A6F01217EA45A9004E0C96 /* CCParallaxScrollOffset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCParallaxScrollOffset.cpp; path = ../Classes/CCParallaxScrollOffset.cpp; sourceTree = "<group>"; };
 		08A6F01317EA45A9004E0C96 /* CCParallaxScrollOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxScrollOffset.h; path = ../Classes/CCParallaxScrollOffset.h; sourceTree = "<group>"; };
+		08A6F02B17EB5CBE004E0C96 /* explosion_large.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion_large.caf.wav; path = ../Resources/explosion_large.caf.wav; sourceTree = "<group>"; };
+		08A6F02C17EB5CBE004E0C96 /* explosion_small.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion_small.caf.wav; path = ../Resources/explosion_small.caf.wav; sourceTree = "<group>"; };
+		08A6F02D17EB5CBE004E0C96 /* laser_enemy.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser_enemy.caf.wav; path = ../Resources/laser_enemy.caf.wav; sourceTree = "<group>"; };
+		08A6F02E17EB5CBE004E0C96 /* laser_ship.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser_ship.caf.wav; path = ../Resources/laser_ship.caf.wav; sourceTree = "<group>"; };
+		08A6F02F17EB5CBE004E0C96 /* powerup.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = powerup.caf.wav; path = ../Resources/powerup.caf.wav; sourceTree = "<group>"; };
+		08A6F03017EB5CBE004E0C96 /* SpaceGame.caf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SpaceGame.caf.wav; path = ../Resources/SpaceGame.caf.wav; sourceTree = "<group>"; };
 		1AC3624216D4A1E8000847F2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = SOURCE_ROOT; };
 		1AC3624316D4A1E8000847F2 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = SOURCE_ROOT; };
 		1AC3624516D4A1E8000847F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
@@ -307,6 +319,12 @@
 		08D7AE4717E9FD9F005F884B /* SharedResources */ = {
 			isa = PBXGroup;
 			children = (
+				08A6F02B17EB5CBE004E0C96 /* explosion_large.caf.wav */,
+				08A6F02C17EB5CBE004E0C96 /* explosion_small.caf.wav */,
+				08A6F02D17EB5CBE004E0C96 /* laser_enemy.caf.wav */,
+				08A6F02E17EB5CBE004E0C96 /* laser_ship.caf.wav */,
+				08A6F02F17EB5CBE004E0C96 /* powerup.caf.wav */,
+				08A6F03017EB5CBE004E0C96 /* SpaceGame.caf.wav */,
 				08A6EFE217EA419D004E0C96 /* Arial.fnt */,
 				08A6EFE317EA419D004E0C96 /* Arial.png */,
 				08A6EFE417EA419D004E0C96 /* bg_front_spacedust.png */,
@@ -599,9 +617,11 @@
 				08A6EFFC17EA419D004E0C96 /* bg_galaxy.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				08A6F00E17EA419D004E0C96 /* Stars2.plist in Resources */,
+				08A6F03217EB5CBE004E0C96 /* explosion_small.caf.wav in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
 				08A6EFFD17EA419D004E0C96 /* bg_planetsunrise.png in Resources */,
 				08A6F00C17EA419D004E0C96 /* Sprites.pvr.ccz in Resources */,
+				08A6F03117EB5CBE004E0C96 /* explosion_large.caf.wav in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				08A6F00017EA419D004E0C96 /* CloseNormal.png in Resources */,
 				08A6F00717EA419D004E0C96 /* Marker Felt.ttf in Resources */,
@@ -617,13 +637,17 @@
 				08A6F00317EA419D004E0C96 /* explosion_small.caf in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				08A6F00A17EA419D004E0C96 /* SpaceGame.caf in Resources */,
+				08A6F03617EB5CBE004E0C96 /* SpaceGame.caf.wav in Resources */,
 				08A6F00917EA419D004E0C96 /* shake.caf in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				08A6F00417EA419D004E0C96 /* HelloWorld.png in Resources */,
 				08A6EFFF17EA419D004E0C96 /* bg_spacialanomaly2.png in Resources */,
+				08A6F03317EB5CBE004E0C96 /* laser_enemy.caf.wav in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				08A6EFFE17EA419D004E0C96 /* bg_spacialanomaly.png in Resources */,
 				08A6EFFB17EA419D004E0C96 /* bg_front_spacedust.png in Resources */,
+				08A6F03517EB5CBE004E0C96 /* powerup.caf.wav in Resources */,
+				08A6F03417EB5CBE004E0C96 /* laser_ship.caf.wav in Resources */,
 				08A6F00817EA419D004E0C96 /* powerup.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

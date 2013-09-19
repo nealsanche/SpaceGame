@@ -131,7 +131,7 @@ void CCParallaxScrollNode::addInfiniteScrollWithObjects(CCArray *objects, int z,
 
 void CCParallaxScrollNode::addInfiniteScrollWithObjects(CCArray *objects, int z, CCPoint ratio, CCPoint pos, CCPoint dir, CCPoint relVel)
 {
-	this->addInfiniteScrollWithObjects(objects, z, ratio, pos, dir, relVel, ccp(-1,-1));
+	this->addInfiniteScrollWithObjects(objects, z, ratio, pos, dir, relVel, ccp(0,0));
 }
 
 void CCParallaxScrollNode::addInfiniteScrollWithObjects(CCArray *objects, int z, CCPoint ratio, CCPoint pos, CCPoint dir)
@@ -149,5 +149,5 @@ void CCParallaxScrollNode::addInfiniteScrollXWithZ(int z, CCPoint ratio, CCPoint
 	}
 	va_end(args);
 	
-	this->addInfiniteScrollWithObjects(argArray, z, ratio, pos, ccp(1,0));
+	this->addInfiniteScrollWithObjects(argArray, z, ratio, pos, ccp(-1,0));
 }
